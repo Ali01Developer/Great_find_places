@@ -42,26 +42,42 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
       longitude = location.longitude ?? 0.0;
     });
   }
-
-  void _savePlace() async {
-    if (_titleController.text.trim().isEmpty || _pickedImage == null) {
-      return;
-    } else {
-      Provider.of<GreatPlaces>(context, listen: false).addPlace(
-        _titleController.text,
-        _pickedImage!,
-        latitude,
-        longitude,
-        "Address Not available",
-      );
-      Navigator.of(context).pop();
-    }
   }
-
-  void _getBottomSheetValues(double lat, double lon) {
+  _init() async {
+    final location = await Location.instance.getLocation();
     setState(() {
-      latitude = lat;
-      longitude = lon;
+      latitude = location.latitude ?? 0.0;
+      longitude = location.longitude ?? 0.0;
+    });
+  }  _init() async {
+    final location = await Location.instance.getLocation();
+    setState(() {
+      latitude = location.latitude ?? 0.0;
+      longitude = location.longitude ?? 0.0;
+    });
+  }  _init() async {
+    final location = await Location.instance.getLocation();
+    setState(() {
+      latitude = location.latitude ?? 0.0;
+      longitude = location.longitude ?? 0.0;
+    });
+  }  _init() async {
+    final location = await Location.instance.getLocation();
+    setState(() {
+      latitude = location.latitude ?? 0.0;
+      longitude = location.longitude ?? 0.0;
+    });
+  }  _init() async {
+    final location = await Location.instance.getLocation();
+    setState(() {
+      latitude = location.latitude ?? 0.0;
+      longitude = location.longitude ?? 0.0;
+    });
+  }  _init() async {
+    final location = await Location.instance.getLocation();
+    setState(() {
+      latitude = location.latitude ?? 0.0;
+      longitude = location.longitude ?? 0.0;
     });
   }
 
