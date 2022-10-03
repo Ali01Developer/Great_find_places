@@ -20,27 +20,6 @@ class GreatPlaces with ChangeNotifier {
     double longitude,
     String address,
   ) {
-      'image': newPlace.image.path,
-      'loc_lat': newPlace.location?.latitude ?? 0.0,
-      'loc_lng': newPlace.location?.longitude ?? 0.0,
-      'address': newPlace.location?.addess ?? ""
-    });
-  }
-
-  Future<void> getAndSetPlaces() async {
-    final placesList = await DBHelper.getData("user_places");
-    _items = placesList.map((place) {
-      return Place(
-        id: place['id'],
-        title: place['title'],
-        image: File(place['image']),
-        location: PlaceLocation(
-          latitude: place['loc_lat'],
-          longitude: place['loc_lng'],
-          addess: place['address'],
-        ),
-      );
-    }).toList();
 
     notifyListeners();
   }
@@ -108,6 +87,21 @@ class GreatPlaces with ChangeNotifier {
       'loc_lng': newPlace.location?.longitude ?? 0.0,
       'address': newPlace.location?.addess ?? ""
     });
+     DBHelper.insert('user_places', {
+      'id': newPlace.id,
+      'title': newPlace.title,
+      'image': newPlace.image.path,
+      'loc_lat': newPlace.location?.latitude ?? 0.0,
+      'loc_lng': newPlace.location?.longitude ?? 0.0,
+      'address': newPlace.location?.addess ?? ""
+    }); DBHelper.insert('user_places', {
+      'id': newPlace.id,
+      'title': newPlace.title,
+      'image': newPlace.image.path,
+      'loc_lat': newPlace.location?.latitude ?? 0.0,
+      'loc_lng': newPlace.location?.longitude ?? 0.0,
+      'address': newPlace.location?.addess ?? ""
+    });
   }
 
   Future<void> getAndSetPlaces() async {
@@ -115,7 +109,7 @@ class GreatPlaces with ChangeNotifier {
     _items = placesList.map((place) {
       return Place(
         id: place['id'],
-        title: place['title'],
+       
         image: File(place['image']),
         location: PlaceLocation(
           latitude: place['loc_lat'],
@@ -124,12 +118,20 @@ class GreatPlaces with ChangeNotifier {
         ),
       );
     }).toList();
+     DBHelper.insert('user_places', {
+      'id': newPlace.id,
+      'title': newPlace.title,
+      'image': newPlace.image.path,
+      'loc_lat': newPlace.location?.latitude ?? 0.0,
+      'loc_lng': newPlace.location?.longitude ?? 0.0,
+      'address': newPlace.location?.addess ?? ""
+    });
 
     notifyListeners();
   }
 
   Place findById(String id) {
-    return _items.firstWhere((element) => id == element.id);
+    return _items.firstWhere((element) => id == element);
   }
 }
 
