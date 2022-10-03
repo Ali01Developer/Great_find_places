@@ -15,6 +15,14 @@ class PlaceDetailsScreen extends StatelessWidget {
         Provider.of<GreatPlaces>(context, listen: false).findById(id as String);
     return Scaffold(
       appBar: AppBar(
+         Text(
+            selectPlace.location?.addess ?? "",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.grey,
+            ),
+          ),
         title: Text(""),
       ),
       body: Column(
@@ -99,6 +107,22 @@ class PlaceDetailsScreen extends StatelessWidget {
       ),
     );
           
+          ),
+           Text(
+            selectPlace.location?.addess ?? "",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.grey,
+            ),
+          ),
+           Text(
+            selectPlace.location?.addess ?? "",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.grey,
+            ),
           ),
           SizedBox(height: 10),
           ElevatedButton(
