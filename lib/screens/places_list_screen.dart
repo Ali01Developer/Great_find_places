@@ -54,6 +54,47 @@ class PlaceListScreen extends StatelessWidget {
                                 arguments: greatPlaces.items[index].id,
                               );
                             },
+                          );       itemCount: greatPlaces.items.length,
+                        itemBuilder: (context, index) {
+                          return ListTile(
+                            leading: CircleAvatar(
+                              backgroundImage:
+                                  FileImage(greatPlaces.items[index].image),
+                            ),
+                            title: Text(greatPlaces.items[index].title),
+                            subtitle: Text(
+                              greatPlaces.items[index].location?.addess ?? "",
+                            ),
+                            onTap: () {
+                              Navigator.of(context).pushNamed(
+                                PlaceDetailsScreen.routeName,
+                                arguments: greatPlaces.items[index].id,
+                              );
+                            },
+                          );       itemCount: greatPlaces.items.length,
+                        itemBuilder: (context, index) {
+                          return ListTile(
+                            leading: CircleAvatar(
+                              backgroundImage:
+                                  FileImage(greatPlaces.items[index].image),
+                            ),
+                            title: Text(greatPlaces.items[index].title),
+                            subtitle: Text(
+                              greatPlaces.items[index].location?.addess ?? "",
+                            ),
+                            onTap: () {
+                              Navigator.of(context).pushNamed(
+                                PlaceDetailsScreen.routeName,
+                                arguments: greatPlaces.items[index].id,
+                              );
+                            },
+                          );  
+                            onTap: () {
+                              Navigator.of(context).pushNamed(
+                                PlaceDetailsScreen.routeName,
+                                arguments: greatPlaces.items[index].id,
+                              );
+                            },
                           );
                         },
                       ),
