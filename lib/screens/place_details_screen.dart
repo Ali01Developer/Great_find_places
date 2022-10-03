@@ -36,6 +36,69 @@ class PlaceDetailsScreen extends StatelessWidget {
               fontSize: 20,
               color: Colors.grey,
             ),
+             body: Column(
+        children: [
+          Container(
+            height: 250,
+            width: double.infinity,
+            child: Image.file(
+              selectPlace.image,
+              fit: BoxFit.cover,
+              width: double.infinity,
+            ),
+          ),
+          SizedBox(height: 10),
+          Text(
+            selectPlace.location?.addess ?? "",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.grey,
+            ),
+          ),
+          SizedBox(height: 10),
+          ElevatedButton(
+            onPressed: () {
+              MapsLauncher.launchCoordinates(selectPlace.location!.latitude,
+                  selectPlace.location!.longitude);
+            },
+            child: Text("Open Map"),
+          )
+        ],
+      ),
+    );
+           body: Column(
+        children: [
+          Container(
+            height: 250,
+            width: double.infinity,
+            child: Image.file(
+              selectPlace.image,
+              fit: BoxFit.cover,
+              width: double.infinity,
+            ),
+          ),
+          SizedBox(height: 10),
+          Text(
+            selectPlace.location?.addess ?? "",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.grey,
+            ),
+          ),
+          SizedBox(height: 10),
+          ElevatedButton(
+            onPressed: () {
+              MapsLauncher.launchCoordinates(selectPlace.location!.latitude,
+                  selectPlace.location!.longitude);
+            },
+            child: Text("Open Map"),
+          )
+        ],
+      ),
+    );
+          
           ),
           SizedBox(height: 10),
           ElevatedButton(
