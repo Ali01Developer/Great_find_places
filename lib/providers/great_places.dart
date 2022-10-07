@@ -12,6 +12,91 @@ class GreatPlaces with ChangeNotifier {
     String title,
     File image,'
     '
+    import 'dart:io';
+
+import 'package:flutter/material.dart';
+import 'package:great_places/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';
+
+import 'package:flutter/material.dart';
+import 'package:great_places/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';
+
+import 'package:flutter/material.dart';
+import 'package:great_places/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';
+
+import 'package:flutter/material.dart';
+import 'package:great_places/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';
+
+import 'package:flutter/material.dart';
+import 'package:great_places/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';
+
+import 'package:flutter/material.dart';
+import 'package:great_places/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    '
     '
     l;'
     ;'
