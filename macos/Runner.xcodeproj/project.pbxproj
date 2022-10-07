@@ -81,14 +81,132 @@ Runner */,
 				33CC10ED2044A3C60003C045 /* great_places.app */,
 			);
 			name = Products;
+			soc
+			name = Products;
 			sourceTree = "<group>";
 		};
-		33CC11242044D66E0003C045 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			children = (
-				33CC10ED2044A3C60003C045 /* great_places.app */,
-			);
+			name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
+			name = Products;
+			sourceTree = "<group>";
+		};	name = Products;
+			soc
 			name = Products;
 			sourceTree = "<group>";
 		};
